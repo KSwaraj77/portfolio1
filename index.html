@@ -1,0 +1,484 @@
+<!doctype html>
+<html lang="en">
+
+<head>
+  <!-- Required meta tags -->
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+
+  <!-- Bootstrap CSS -->
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/css/bootstrap.min.css" rel="stylesheet"
+    integrity="sha384-1BmE4kWBq78iYhFldvKuhfTAU6auU8tT94WrHftjDbrCEXSU1oBoqyl2QvZ6jIW3" crossorigin="anonymous">
+  <!-- font awsm cdn -->
+  <link rel="stylesheet"
+    href="https://cdn.jsdelivr.net/npm/@fortawesome/fontawesome-free@6.2.1/css/fontawesome.min.css">
+  <!-- bootstrap icon cdn -->
+  <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.10.2/font/bootstrap-icons.css">
+  <title>Portfolio-Swaraj Kumar Swain</title>
+  <link rel="icon" type="image/x-icon" href="favicon.png">
+
+  <style>
+    
+    .nav-link {
+      color: black;
+      font-size: larger;
+      font-weight: 500;
+
+    }
+
+    .container2 {
+      background-image: linear-gradient(rgb(130, 96, 102), rgb(233, 226, 226));
+    }
+
+    .nav-link:hover {
+      color: rgb(72, 117, 131) !important;
+    }
+
+    .icon-link {
+      font-size: x-large;
+    }
+
+    .icon-link:hover {
+      color: rgb(70, 112, 127) !important;
+    }
+
+    .bgimage {
+      background-color: rgba(205, 169, 176, 0.303);
+    }
+
+    /* .bgimage {
+      background-image: url(bg2.jpg);
+      background-size: cover;
+      background-repeat: no-repeat;
+    } */
+
+    .headlines {
+      font-style: italic;
+      text-shadow: 3px 2px gray;
+    }
+
+    .bghover{
+      border: none;
+    outline: none;
+    color: rgb(95, 83, 83);
+    
+    cursor: pointer;
+    position: relative;
+    z-index: 0;
+    
+    }
+    .bghover:hover{
+      color: rgb(166, 147, 122);
+    }
+
+    .bghover:before {
+    content: '';
+    background: linear-gradient(45deg, rgb(224, 153, 153), rgb(220, 220, 128), rgb(136, 227, 136), rgb(239, 223, 223), rgb(138, 138, 219));
+    position: absolute;
+    top: -2px;
+    left:-2px;
+    background-size: 400%;
+    z-index: -1;
+    filter: blur(5px);
+    width: calc(100% + 4px);
+    height: calc(100% + 4px);
+    animation: glowing 20s linear infinite;
+    opacity: 0;
+    transition: opacity .3s ease-in-out;
+    /* border-radius: 10px; */
+}
+
+
+
+
+
+.bghover:hover:before {
+    opacity: 1;
+}
+
+.bghover:after {
+    z-index: -1;
+    content: '';
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    background: rgb(188, 182, 182);
+    left: 0;
+    top: 0;
+    border-radius: 10px;
+}
+
+
+
+
+
+  </style>
+
+
+
+</head>
+
+<body>
+
+  <!-- section1 -->
+  <!-- Double Navbar (1) -->
+
+  <!-- section2 -->
+  <!-- Navbar -->
+
+  <section class="container2 sticky-top">
+
+    <nav class="navbar navbar-expand-lg  ">
+      <div class="container">
+        <a style="text-shadow: 10px 10px 4px gray;" class="navbar-brand text-light" href="#"><h2><span class="text-dark text-opacity-75">S</span>wa<span class="text-dark text-opacity-75">R</span>aaj</h2></a>
+        <button  class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav"
+          aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+          <span class="navbar-toggler-icon text-black"></span>
+        </button>
+        <div class="collapse navbar-collapse" id="navbarNav">
+          <ul class="navbar-nav ms-auto mb-2 mb">
+            <li class="nav-item ">
+              <a style="text-shadow: 2px 2px gray;" class="nav-link active" aria-current="page" href="#scrollspySkills">Skills</a>
+            </li>
+            <li class="nav-item">
+              <a style="text-shadow: 2px 2px gray;" class="nav-link " href="#scrollspyExperiences">Experience</a>
+            </li>
+            <li class="nav-item">
+              <a style="text-shadow: 2px 2px gray;" class="nav-link" href="#scrollspyProjects">Projects</a>
+            </li>
+
+          </ul>
+        </div>
+      </div>
+    </nav>
+    
+  </section>
+
+  <!-- container for background image -->
+  <section class="bgimage">
+
+
+
+    <!-- section3 -->
+    <!-- profile -->
+    <section class="container3">
+      <div class="container">
+        <div class="row">
+          <div class="col-lg-6 text-center">
+            <img src="img5.jpg" style="height: 500px;" class="img-fluid p-5 photo rounded-pill" alt="...">
+          </div>
+          <div class="col-lg-6 text-start d-flex align-items-center">
+            <div>
+              <h1 style="text-shadow: 2px 2px gray;">Swaraj Kumar Swain</h1>
+              <h3 style="text-shadow: 1px 1px gray;" class="pt-1">Front-End Developer</h3>
+
+              <h6 class="w-75 pt-3">I'm actively seeking my first role as a Frontend Web Developer, and I'm open to
+                opportunities that allow me to apply and expand my skills. If you're looking for a motivated and
+                adaptable team member who is ready to make an impact, let's connect! I'd love to hear from you and
+                explore how I can contribute to your projects and goals.</h6>
+
+              <a class="icon-link text-black shadow" href="https://www.linkedin.com/in/swaraj-kumar-swain-814303238/">
+                <i class="bi bi-linkedin "></i>
+              </a>
+              <a class="icon-link text-black ps-3 shadow" href="https://github.com/KSwaraj77?tab=repositories">
+                <i class="bi bi-github"></i>
+              </a>
+              <a class="icon-link text-black ps-3 shadow" href="mailto:okswaraj99@gmail.com">
+                <i class="bi bi-envelope-at-fill"></i>
+              </a>
+              <a class="icon-link text-black ps-3 shadow" href="tel:+916370291831">
+                <i class="bi bi-whatsapp"></i>
+              </a>
+
+
+              <!-- <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" class="bi bi-linkedin" viewBox="0 0 16 16">
+                    <path d="M0 1.146C0 .513.526 0 1.175 0h13.65C15.474 0 16 .513 16 1.146v13.708c0 .633-.526 1.146-1.175 1.146H1.175C.526 16 0 15.487 0 14.854V1.146zm4.943 12.248V6.169H2.542v7.225h2.401zm-1.2-8.212c.837 0 1.358-.554 1.358-1.248-.015-.709-.52-1.248-1.342-1.248-.822 0-1.359.54-1.359 1.248 0 .694.521 1.248 1.327 1.248h.016zm4.908 8.212V9.359c0-.216.016-.432.08-.586.173-.431.568-.878 1.232-.878.869 0 1.216.662 1.216 1.634v3.865h2.401V9.25c0-2.22-1.184-3.252-2.764-3.252-1.274 0-1.845.7-2.165 1.193v.025h-.016a5.54 5.54 0 0 1 .016-.025V6.169h-2.4c.03.678 0 7.225 0 7.225h2.4z"/>
+                  </svg> -->
+            </div>
+          </div>
+
+        </div>
+      </div>
+    </section>
+
+    <!-- section4 -->
+    <!-- Skills -->
+
+    <section class="container4">
+      <div>
+        <h1 class="headlines text-center" id="scrollspySkills">SKILLS</h1>
+      </div>
+
+
+
+      <div class="container">
+        <div class="row">
+          <div class="col-lg-4 d-flex justify-content-center align-items-center pt-3">
+            <div class="bghover card bg-secondary bg-opacity-10 shadow" style="width: 22rem; border-radius: 25px !important;">
+              <div class="card-body">
+                <h3 class="card-title text-center">JavaScript</h3>
+                
+              </div>
+            </div>
+          </div>
+          <div class="col-lg-4 d-flex justify-content-center align-items-center pt-3">
+            <div class="bghover card bg-secondary bg-opacity-10 shadow" style="width: 22rem; border-radius: 25px !important;">
+              <div class="card-body">
+                <h3 class="card-title text-center">HTML 5</h3>
+                
+              </div>
+            </div>
+          </div>
+          <div class="col-lg-4 d-flex justify-content-center align-items-center pt-3">
+            <div class="bghover card bg-secondary bg-opacity-10 shadow" style="width: 22rem; border-radius: 25px !important;">
+              <div class="card-body">
+                <h3 class="card-title text-center">CSS 3</h3>
+                
+              </div>
+            </div>
+          </div>
+          <div class="col-lg-4 d-flex justify-content-center align-items-center pt-3">
+            <div class="bghover card bg-secondary bg-opacity-10 shadow" style="width: 22rem; border-radius: 25px !important;">
+              <div class="card-body">
+                <h3 class="card-title text-center">Bootstrap 5</h3>
+                
+              </div>
+            </div>
+          </div>
+          <div class="col-lg-4 d-flex justify-content-center align-items-center pt-3">
+            <div class="bghover card bg-secondary bg-opacity-10 shadow" style="width: 22rem; border-radius: 25px !important;">
+              <div class="card-body">
+                <h3 class="card-title text-center">React Js</h3>
+                
+              </div>
+            </div>
+          </div>
+          <div class="col-lg-4 d-flex justify-content-center align-items-center pt-3">
+            <div class="bghover card bg-secondary bg-opacity-10 shadow" style="width: 22rem; border-radius: 25px !important;">
+              <div class="card-body">
+                <h3 class="card-title text-center">Java</h3>
+                
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+
+
+      
+      
+      
+    </section>
+
+    <!-- section5 -->
+    <!-- Experience -->
+
+    <section class="container5 p-3">
+      <div>
+        <h1 class="headlines text-center" id="scrollspyExperiences">EXPERIENCES</h1>
+      </div>
+
+      <div class="container ">
+        <div class="row">
+          <div class="col-lg-5 d-flex justify-content-center align-items-center">
+            <div class="card bg-secondary bg-opacity-25 rounded-3 border border-3 shadow"
+              style="width: 22rem; border-radius: 25px !important;">
+              <div class="card-body">
+                <img style="height: 30px;" src="apptimate.png" alt="">
+                <h4 class="card-title text-black">Apptimate Software Pvt Ltd</h4>
+                <h5 class="card-subtitle mb-2 text-black-50">Front-End Web Developer Intern</h5>
+                <h6 style="font-style: italic;" class="card-subtitle mb-2 text-muted">March 2023 - Aug 2023</h6>
+                <p class="card-text">Some quick example text to build on the card title and make up the bulk of the
+                  card's content.</p>
+                <!-- <a href="#" class="card-link">Card link</a> -->
+
+                <!-- offcanvas for showing certificate -->
+                <button class="btn btn-secondary" type="button" data-bs-toggle="offcanvas"
+                  data-bs-target="#offcanvasRight" aria-controls="offcanvasRight">View certificate</button>
+
+                <div style="width: 50%;" class="offcanvas offcanvas-end" tabindex="-1" id="offcanvasRight"
+                  aria-labelledby="offcanvasRightLabel">
+                  <div class="offcanvas-header">
+                    <h5 id="offcanvasRightLabel">View certificate</h5>
+                    <button type="button" class="btn-close text-reset" data-bs-dismiss="offcanvas"
+                      aria-label="Close"></button>
+                  </div>
+                  <div class="offcanvas-body">
+                    <img class="img-fluid" src="certificate1.jpg" alt="">
+                  </div>
+                </div>
+
+                <!-- end of offcanvas for showing certificate -->
+
+
+
+
+              </div>
+            </div>
+          </div>
+          <div class="col-lg-2 d-flex justify-content-center align-items-center">
+            <div class="vr d-none d-lg-block"></div>
+          </div>
+          <div class="col-lg-5">
+            <!-- Column -->
+          </div>
+        </div>
+      </div>
+    </section>
+
+
+    <!-- section6 -->
+    <!-- Projects -->
+
+    <section class="container6">
+      <div>
+        <h1 class="headlines text-center" id="scrollspyProjects">PROJECTS</h1>
+      </div>
+
+
+
+
+      <div class="container">
+        <div class="row">
+          <div class="col-lg-4 d-flex justify-content-center align-items-center pt-5">
+            <div class="card bg-secondary bg-opacity-25 border border-0 shadow"
+              style="width: 18rem; border-radius: 25px !important;">
+              <!-- <div class="embed-responsive embed-responsive-16by9"> -->
+              <iframe class="embed-responsive-item" style="border-top-left-radius: 25px; border-top-right-radius: 25px;"
+                src="Multicals.mp4" allowfullscreen></iframe>
+              <!-- </div> -->
+              <div class="card-body">
+                <h5 class="card-title">MultiCals</h5>
+                <p class="card-text">Some quick example text to build on the card title and make up the bulk of the
+                  card's content.</p>
+                <a href="#" class="btn btn-secondary">View Website</a>
+              </div>
+            </div>
+          </div>
+          <div class="col-lg-4 d-flex justify-content-center align-items-center pt-5">
+            <div class="card bg-secondary bg-opacity-25 border border-0 shadow"
+              style="width: 18rem; border-radius: 25px !important;">
+              <!-- <div class="embed-responsive embed-responsive-16by9"> -->
+              <iframe class="embed-responsive-item" style="border-top-left-radius: 25px; border-top-right-radius: 25px;"
+                src="Dotcom.mp4" allowfullscreen></iframe>
+              <!-- </div> -->
+              <div class="card-body">
+                <h5 class="card-title">DotCom</h5>
+                <p class="card-text">Some quick example text to build on the card title and make up the bulk of the
+                  card's content.</p>
+                <a href="#" class="btn btn-secondary">View Website</a>
+              </div>
+            </div>
+          </div>
+          <div class="col-lg-4 d-flex justify-content-center align-items-center pt-5">
+            <div class="card bg-secondary bg-opacity-25 border border-0 shadow"
+              style="width: 18rem; border-radius: 25px !important;">
+              <!-- <div class="embed-responsive embed-responsive-16by9"> -->
+              <iframe class="embed-responsive-item" style="border-top-left-radius: 25px; border-top-right-radius: 25px;"
+                src="portfolio.mp4" allowfullscreen></iframe>
+              <!-- </div> -->
+              <div class="card-body">
+                <h5 class="card-title">Portfolio</h5>
+                <p class="card-text">Some quick example text to build on the card title and make up the bulk of the
+                  card's content.</p>
+                <a href="#" class="btn btn-secondary">View Website</a>
+              </div>
+            </div>
+          </div>
+          <div class="col-lg-4 d-flex justify-content-center align-items-center pt-5">
+            <div class="card bg-secondary bg-opacity-25 border border-0 shadow"
+              style="width: 18rem; border-radius: 25px !important;">
+              <!-- <div class="embed-responsive embed-responsive-16by9"> -->
+              <iframe class="embed-responsive-item" style="border-top-left-radius: 25px; border-top-right-radius: 25px;"
+                src="Apptimate.mp4" allowfullscreen></iframe>
+              <!-- </div> -->
+              <div class="card-body">
+                <h5 class="card-title">Apptimate</h5>
+                <p class="card-text">Some quick example text to build on the card title and make up the bulk of the
+                  card's content.</p>
+                <a href="#" class="btn btn-secondary">View Website</a>
+              </div>
+            </div>
+          </div>
+          <div class="col-lg-4 d-flex justify-content-center align-items-center pt-5">
+            <div class="card bg-secondary bg-opacity-25 border border-0 shadow"
+              style="width: 18rem; border-radius: 25px !important;">
+              <!-- <div class="embed-responsive embed-responsive-16by9"> -->
+              <iframe class="embed-responsive-item" style="border-top-left-radius: 25px; border-top-right-radius: 25px;"
+                src="LinkedIn.mp4" allowfullscreen></iframe>
+              <!-- </div> -->
+              <div class="card-body">
+                <h5 class="card-title">LinkedIn</h5>
+                <p class="card-text">Some quick example text to build on the card title and make up the bulk of the
+                  card's content.</p>
+                <a href="#" class="btn btn-secondary">View Website</a>
+              </div>
+            </div>
+          </div>
+          <div class="col-lg-4 d-flex justify-content-center align-items-center pt-5">
+            <div class="card bg-secondary bg-opacity-25 border border-0 shadow"
+              style="width: 18rem; border-radius: 25px !important;">
+              <!-- <div class="embed-responsive embed-responsive-16by9"> -->
+              <iframe class="embed-responsive-item" style="border-top-left-radius: 25px; border-top-right-radius: 25px;"
+                src="Alt Div.mp4" allowfullscreen></iframe>
+              <!-- </div> -->
+              <div class="card-body">
+                <h5 class="card-title">AltPage</h5>
+                <p class="card-text">Some quick example text to build on the card title and make up the bulk of the
+                  card's content.</p>
+                <a href="#" class="btn btn-secondary">View Website</a>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+
+
+
+
+
+    </section>
+
+
+    <!-- section7 -->
+    <!-- footer -->
+
+    <div class="container7">
+      <div class="container pt-5">
+        <footer class="py-3 my-4">
+          <ul class="nav justify-content-center border-bottom pb-3 mb-3">
+            
+            <li class="nav-item"><a href="https://www.linkedin.com/in/swaraj-kumar-swain-814303238/" class="nav-link px-2 text-muted">LinkedIn</a></li>
+            <li class="nav-item"><a href="mailto:okswaraj99@gmail.com" class="nav-link px-2 text-muted">E-Mail</a></li>
+            <li class="nav-item"><a href="https://github.com/KSwaraj77?tab=repositories" class="nav-link px-2 text-muted">Github</a></li>
+            <li class="nav-item"><a href="tel:+916370291831" class="nav-link px-2 text-muted">Call/WhatsApp</a></li>
+          </ul>
+          <p class="text-center text-muted">&copy; Swaraj Kumar Swain</p>
+        </footer>
+      </div>
+    </div>
+
+
+
+
+
+
+
+
+  </section>
+
+  <!-- Optional JavaScript; choose one of the two! -->
+
+  <!-- Option 1: Bootstrap Bundle with Popper -->
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/js/bootstrap.bundle.min.js"
+    integrity="sha384-ka7Sk0Gln4gmtz2MlQnikT1wXgYsOg+OMhuP+IlRH9sENBO0LRn5q+8nbTov4+1p"
+    crossorigin="anonymous"></script>
+
+  <!-- Option 2: Separate Popper and Bootstrap JS -->
+  <!--
+    <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.10.2/dist/umd/popper.min.js" integrity="sha384-7+zCNj/IqJ95wo16oMtfsKbZ9ccEh31eOz1HGyDuCQ6wgnyJNSYdrPa03rtR1zdB" crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/js/bootstrap.min.js" integrity="sha384-QJHtvGhmr9XOIpI6YVutG+2QOK9T+ZnN4kzFN1RtK3zEFEIsxhlmWl5/YESvpZ13" crossorigin="anonymous"></script>
+    -->
+</body>
+
+</html>
